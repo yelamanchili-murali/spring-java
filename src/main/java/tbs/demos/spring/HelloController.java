@@ -11,4 +11,9 @@ public class HelloController {
 		return "Greetings from Tanzu Build Service!";
 	}
 
+	@RequestMapping("/v2")
+	public String index() {
+		return "Greetings from Tanzu Build Service v2!";
+	}
+
 }

@@ -13,7 +13,7 @@ public class HelloController {
 
 	@RequestMapping("/v2")
 	public String indexV2() {
-		return "Greetings from Tanzu Build Service v2!";
+		return "Hello from Tanzu Build Service v2!";
 	}
 
 }
